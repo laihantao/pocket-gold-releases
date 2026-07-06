@@ -1,8 +1,8 @@
 {
-  "version": "1.0.0-dev",
-  "build_number": 1,
-  "apk_url": "https://github.com/laihantao/gold_gallery_flutter/releases/download/dev-latest/app-dev-release.apk",
-  "notes": "Initial dev build.",
+  "version": "1.0.0-dev.4",
+  "build_number": 4,
+  "apk_url": "https://github.com/laihantao/pocket-gold-releases/releases/download/dev-latest/app-dev-release.apk",
+  "notes": "Automated dev build from commit 63a9273.",
   "force_update": false,
-  "release_date": "2026-07-05"
+  "release_date": "2026-07-06"
 }
