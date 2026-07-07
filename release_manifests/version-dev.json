@@ -1,8 +1,9 @@
 {
-  "version": "1.0.0-dev.5",
-  "build_number": 5,
+  "version": "1.0.0-dev.7",
+  "build_number": 7,
   "apk_url": "https://github.com/laihantao/pocket-gold-releases/releases/download/dev-latest/app-dev-release.apk",
-  "notes": "Automated dev build from commit 7e7e892.",
+  "notes": "- Fix on update dialog, added changelog for prd\n- Restructure Version Label\n- manifests, migrate to new repo\n- Fix version label overlapping bottom-docked FAB\n- test OTA - 1",
+  "commit_sha": "704e37e609ecf55d57563fc5cf0c4f63d5dfc49d",
   "force_update": false,
   "release_date": "2026-07-07"
 }
