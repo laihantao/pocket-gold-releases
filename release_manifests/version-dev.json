@@ -1,9 +1,9 @@
 {
-  "version": "1.0.0-dev.10",
-  "build_number": 10,
+  "version": "1.0.0-dev.11",
+  "build_number": 11,
   "apk_url": "https://github.com/laihantao/pocket-gold-releases/releases/download/dev-latest/app-dev-release.apk",
-  "notes": "- Revamp export pdf\n- Changelog updated for v1.0.5, dev branch\n- Cherry pick from dev, updated telegram notification datetime format.\n- Updated telegram datetime format.\n- Updated changelog for v1.0.5",
-  "commit_sha": "d3223b29465b93e28669dc18af905bc54c38564c",
+  "notes": "- Fix on export pdf page, add columns",
+  "commit_sha": "872cfaf2197c6a97b919c59631e3c58a6f0133cb",
   "force_update": false,
   "release_date": "2026-07-07"
 }
