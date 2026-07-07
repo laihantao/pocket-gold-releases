@@ -1,9 +1,9 @@
 {
-  "version": "1.0.0-dev.7",
-  "build_number": 7,
+  "version": "1.0.0-dev.9",
+  "build_number": 9,
   "apk_url": "https://github.com/laihantao/pocket-gold-releases/releases/download/dev-latest/app-dev-release.apk",
-  "notes": "- Fix on update dialog, added changelog for prd\n- Restructure Version Label\n- manifests, migrate to new repo\n- Fix version label overlapping bottom-docked FAB\n- test OTA - 1",
-  "commit_sha": "704e37e609ecf55d57563fc5cf0c4f63d5dfc49d",
+  "notes": "- Added telegram bot notification on CICD status.\n- New steps\n- docs: finalize changelog for v1.0.4",
+  "commit_sha": "ffc2384ffeb7f6b1c4d44dd0e82c07f7a6552bcc",
   "force_update": false,
   "release_date": "2026-07-07"
 }
