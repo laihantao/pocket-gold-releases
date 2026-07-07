@@ -1,9 +1,9 @@
 {
-  "version": "1.0.0-dev.9",
-  "build_number": 9,
+  "version": "1.0.0-dev.10",
+  "build_number": 10,
   "apk_url": "https://github.com/laihantao/pocket-gold-releases/releases/download/dev-latest/app-dev-release.apk",
-  "notes": "- Added telegram bot notification on CICD status.\n- New steps\n- docs: finalize changelog for v1.0.4",
-  "commit_sha": "ffc2384ffeb7f6b1c4d44dd0e82c07f7a6552bcc",
+  "notes": "- Revamp export pdf\n- Changelog updated for v1.0.5, dev branch\n- Cherry pick from dev, updated telegram notification datetime format.\n- Updated telegram datetime format.\n- Updated changelog for v1.0.5",
+  "commit_sha": "d3223b29465b93e28669dc18af905bc54c38564c",
   "force_update": false,
   "release_date": "2026-07-07"
 }
