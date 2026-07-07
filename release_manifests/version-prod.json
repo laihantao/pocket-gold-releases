@@ -1,8 +1,8 @@
 {
-  "version": "1.0.3",
-  "build_number": 3,
-  "apk_url": "https://github.com/laihantao/pocket-gold-releases/releases/download/v1.0.3/app-prod-release.apk",
-  "notes": "Merge branch 'develop'\n\n# Conflicts:\n#\trelease_manifests/version-dev.json\n#\trelease_manifests/version-prod.json",
+  "version": "1.0.4",
+  "build_number": 5,
+  "apk_url": "https://github.com/laihantao/pocket-gold-releases/releases/download/v1.0.4/app-prod-release.apk",
+  "notes": "- OTA 更新弹窗文案现在会跟随 App 语言设置显示（英文 / 简体中文 / Bahasa Melayu）\n- 设置页新增「检查更新」按钮，可手动检查并弹出更新提示，避免误关弹窗后无法再次更新",
   "force_update": false,
-  "release_date": "2026-07-06"
+  "release_date": "2026-07-07"
 }
