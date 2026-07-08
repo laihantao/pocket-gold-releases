@@ -1,8 +1,8 @@
 {
   "version": "1.0.6",
-  "build_number": 8,
+  "build_number": 9,
   "apk_url": "https://github.com/laihantao/pocket-gold-releases/releases/download/v1.0.6/app-prod-release.apk",
-  "notes": "Reduce OTA manifest requests to avoid rate limiting (429)\n\nraw.githubusercontent.com rate-limits per IP, and the app checked on\nevery launch — repeated opens (plus shared carrier NAT IPs) trip a 429.\n\n- Throttle the startup auto-check to once per 6h via a persisted\n  timestamp (checkForUpdateOnStartup). The manual Settings check is\n  never throttled.\n- Send a descriptive User-Agent + Accept on the manifest request\n  instead of a bare Dart client.\n- Surface 429 distinctly (\"server busy, try again in a few minutes\")\n  in both the Settings snackbar and the diagnostics dialog, so a\n  rate-limit reads differently from an unreachable server.\n\ni18n (en/zh/ms): updateRateLimited.\n\nCo-Authored-By: Claude Opus 4.8 <noreply@anthropic.com>",
+  "notes": "- 珠宝列表页改版：标题、搜索与筛选区域更紧凑；筛选与收藏夹区域现在可折叠，收起后会在搜索栏旁显示已应用筛选的数量徽标，并在下方显示当前筛选摘要（可一键清除）。默认收起。\n- 排序方式与商品数量合并到同一行显示。\n- 珠宝卡片改版：布局更紧凑，品牌名称加粗，纯度徽章叠加在图片左上角，信息更简洁清晰。\n- 收藏夹：支持重命名；新建/重命名时防止重复名称（不区分大小写）；「管理收藏夹」入口移至设置页，列表页保留「＋」快速新建收藏夹。\n- 导出 PDF 功能改版，新增更多可选字段／列。\n- 检查更新体验优化：现在会区分「离线／网络超时／服务器繁忙」等不同情况并给出明确提示，不再一律显示「已是最新版本」；修复了某些情况下无法正确检测到新版本的问题。\n- 下载更新时显示下载进度（已下载 MB 与实时下载速度）。\n- 降低自动检查更新的频率（每 6 小时最多一次），避免请求过于频繁而被限流；手动「检查更新」不受此限制。\n- 设置页长按版本号可查看更新诊断信息（渠道／已安装版本／检查结果），方便排查更新问题。",
   "force_update": false,
   "release_date": "2026-07-08"
 }
