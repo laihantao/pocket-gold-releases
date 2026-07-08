@@ -1,9 +1,9 @@
 {
-  "version": "1.0.0-dev.13",
-  "build_number": 13,
+  "version": "1.0.0-dev.14",
+  "build_number": 14,
   "apk_url": "https://github.com/laihantao/pocket-gold-releases/releases/download/dev-latest/app-dev-release.apk",
-  "notes": "- Address listing/card review feedback",
-  "commit_sha": "2b0468a77c446879c748b45669181c12bcc8aa63",
+  "notes": "- Show MB + download speed during OTA update\n- Differentiate update-check failures in Settings\n- Collections: rename support + case-insensitive unique names",
+  "commit_sha": "fde900610ecddf151063824993e267da89456e18",
   "force_update": false,
   "release_date": "2026-07-08"
 }
