@@ -1,9 +1,9 @@
 {
-  "version": "1.0.0-dev.17",
-  "build_number": 17,
+  "version": "1.0.0-dev.18",
+  "build_number": 18,
   "apk_url": "https://github.com/laihantao/pocket-gold-releases/releases/download/dev-latest/app-dev-release.apk",
-  "notes": "- 4e035c9",
-  "commit_sha": "4e035c9ba281e79f39f6f68449383f0ec72c01f7",
+  "notes": "- Changelog: add v1.0.6",
+  "commit_sha": "c6587b24a2e8c05c6077f1a11920cc91fccff005",
   "force_update": false,
   "release_date": "2026-07-08"
 }
