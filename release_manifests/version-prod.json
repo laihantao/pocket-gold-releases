@@ -1,8 +1,8 @@
 {
-  "version": "1.0.5",
-  "build_number": 7,
-  "apk_url": "https://github.com/laihantao/pocket-gold-releases/releases/download/v1.0.5/app-prod-release.apk",
-  "notes": "- 在CI/CD加入 Telegram Bot 通知。",
+  "version": "1.0.6",
+  "build_number": 8,
+  "apk_url": "https://github.com/laihantao/pocket-gold-releases/releases/download/v1.0.6/app-prod-release.apk",
+  "notes": "Reduce OTA manifest requests to avoid rate limiting (429)\n\nraw.githubusercontent.com rate-limits per IP, and the app checked on\nevery launch — repeated opens (plus shared carrier NAT IPs) trip a 429.\n\n- Throttle the startup auto-check to once per 6h via a persisted\n  timestamp (checkForUpdateOnStartup). The manual Settings check is\n  never throttled.\n- Send a descriptive User-Agent + Accept on the manifest request\n  instead of a bare Dart client.\n- Surface 429 distinctly (\"server busy, try again in a few minutes\")\n  in both the Settings snackbar and the diagnostics dialog, so a\n  rate-limit reads differently from an unreachable server.\n\ni18n (en/zh/ms): updateRateLimited.\n\nCo-Authored-By: Claude Opus 4.8 <noreply@anthropic.com>",
   "force_update": false,
-  "release_date": "2026-07-07"
+  "release_date": "2026-07-08"
 }
