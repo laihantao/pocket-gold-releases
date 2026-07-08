@@ -1,9 +1,9 @@
 {
-  "version": "1.0.0-dev.12",
-  "build_number": 12,
+  "version": "1.0.0-dev.13",
+  "build_number": 13,
   "apk_url": "https://github.com/laihantao/pocket-gold-releases/releases/download/dev-latest/app-dev-release.apk",
-  "notes": "- Redesign jewellery card for a denser layout\n- Move collection management to Settings; quick-create on listing\n- Add collapsible collection + filter section to listing page\n- Merge sort + item-count into one row on listing page\n- Remove dead listing_page.dart",
-  "commit_sha": "3ed268a474e137719e391f1669a826e0c6dd3bdd",
+  "notes": "- Address listing/card review feedback",
+  "commit_sha": "2b0468a77c446879c748b45669181c12bcc8aa63",
   "force_update": false,
   "release_date": "2026-07-08"
 }
