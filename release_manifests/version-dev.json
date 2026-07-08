@@ -1,9 +1,9 @@
 {
-  "version": "1.0.0-dev.15",
-  "build_number": 15,
+  "version": "1.0.0-dev.16",
+  "build_number": 16,
   "apk_url": "https://github.com/laihantao/pocket-gold-releases/releases/download/dev-latest/app-dev-release.apk",
-  "notes": "- Add hidden update diagnostics to Settings\n- Make OTA update check use the runtime channel, not the dart-define",
-  "commit_sha": "1394fd388612aa6bcc6f81695452add8a34c9b38",
+  "notes": "- Reduce OTA manifest requests to avoid rate limiting (429)",
+  "commit_sha": "4e035c9ba281e79f39f6f68449383f0ec72c01f7",
   "force_update": false,
   "release_date": "2026-07-08"
 }
