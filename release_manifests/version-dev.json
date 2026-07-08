@@ -1,8 +1,8 @@
 {
-  "version": "1.0.0-dev.16",
-  "build_number": 16,
+  "version": "1.0.0-dev.17",
+  "build_number": 17,
   "apk_url": "https://github.com/laihantao/pocket-gold-releases/releases/download/dev-latest/app-dev-release.apk",
-  "notes": "- Reduce OTA manifest requests to avoid rate limiting (429)",
+  "notes": "- 4e035c9",
   "commit_sha": "4e035c9ba281e79f39f6f68449383f0ec72c01f7",
   "force_update": false,
   "release_date": "2026-07-08"
