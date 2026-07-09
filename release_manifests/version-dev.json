@@ -1,9 +1,9 @@
 {
-  "version": "1.0.0-dev.21",
-  "build_number": 21,
+  "version": "1.0.0-dev.22",
+  "build_number": 22,
   "apk_url": "https://github.com/laihantao/pocket-gold-releases/releases/download/dev-latest/app-dev-release.apk",
-  "notes": "- Slide between tabs with a keep-alive PageView\n- Cache decoded base64 thumbnails to stop dashboard image flash",
-  "commit_sha": "6c1b048d62fc084edc71789feaeec7001c75fa94",
+  "notes": "- Use shared thumbnail cache in the listing card",
+  "commit_sha": "5f23813e6d95ba6e30bd6fa08bf0443cc83c2a5e",
   "force_update": false,
   "release_date": "2026-07-09"
 }
