@@ -1,9 +1,9 @@
 {
-  "version": "1.0.0-dev.18",
-  "build_number": 18,
+  "version": "1.0.0-dev.19",
+  "build_number": 19,
   "apk_url": "https://github.com/laihantao/pocket-gold-releases/releases/download/dev-latest/app-dev-release.apk",
-  "notes": "- Changelog: add v1.0.6",
-  "commit_sha": "c6587b24a2e8c05c6077f1a11920cc91fccff005",
+  "notes": "- Make breakdown legend tappable; remove standalone By Owner list\n- Show jewellery type cards 3 per row\n- Add breakdown donut section with by-type / by-owner toggle\n- Move Recently Added below the View Portfolio Trend row\n- Trim Portfolio Overview to Total Items + Portfolio Value\n- Add value-privacy eye toggle to Dashboard + Listing headers\n- Add value-privacy foundation (PrivacyNotifier + MoneyText)",
+  "commit_sha": "164795b20b61c4aebca7246b508bb721c6265239",
   "force_update": false,
-  "release_date": "2026-07-08"
+  "release_date": "2026-07-09"
 }
