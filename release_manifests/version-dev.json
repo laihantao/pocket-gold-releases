@@ -1,9 +1,9 @@
 {
-  "version": "1.0.0-dev.20",
-  "build_number": 20,
+  "version": "1.0.0-dev.21",
+  "build_number": 21,
   "apk_url": "https://github.com/laihantao/pocket-gold-releases/releases/download/dev-latest/app-dev-release.apk",
-  "notes": "- Keep tabs alive to stop image re-decode flash on switch",
-  "commit_sha": "d92cf1046d7767af32114b3acb979c02747b04a1",
+  "notes": "- Slide between tabs with a keep-alive PageView\n- Cache decoded base64 thumbnails to stop dashboard image flash",
+  "commit_sha": "6c1b048d62fc084edc71789feaeec7001c75fa94",
   "force_update": false,
   "release_date": "2026-07-09"
 }
