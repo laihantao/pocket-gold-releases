@@ -1,8 +1,8 @@
 {
-  "version": "1.0.7",
-  "build_number": 10,
-  "apk_url": "https://github.com/laihantao/pocket-gold-releases/releases/download/v1.0.7/app-prod-release.apk",
-  "notes": "- 新增金额隐私开关：仪表盘与列表页顶部新增「眼睛」按钮，一键隐藏／显示所有金额，方便在公开场合查看。\n- 仪表盘改版：概览区精简为「总件数」与「组合总值」两项；「最近添加」移至「查看组合走势」下方，层次更清晰。\n- 仪表盘新增分类占比环形图，可在「按类型／按拥有者」之间切换；图例可点击查看对应明细，移除了独立的「按拥有者」列表。\n- 珠宝类型卡片改为每行 3 个显示，浏览更紧凑。\n- 性能优化：切换标签页时保持页面状态并缓存已解码的缩略图，消除切换时图片闪烁与重复解码；标签页之间改用滑动切换。\n- 列表卡片复用共享缩略图缓存，减少内存占用与重复解码。",
+  "version": "1.0.8",
+  "build_number": 11,
+  "apk_url": "https://github.com/laihantao/pocket-gold-releases/releases/download/v1.0.8/app-prod-release.apk",
+  "notes": "- 修复 Chiang Heng（长慶）金价停止更新的问题：对方更换了官网与价格数据源，App 已改为对接新的价格接口，金价与「最后更新」时间恢复正常刷新。",
   "force_update": false,
-  "release_date": "2026-07-10"
+  "release_date": "2026-10-18"
 }
