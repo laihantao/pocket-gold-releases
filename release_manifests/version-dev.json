@@ -1,9 +1,9 @@
 {
-  "version": "1.0.0-dev.22",
-  "build_number": 22,
+  "version": "1.0.0-dev.23",
+  "build_number": 23,
   "apk_url": "https://github.com/laihantao/pocket-gold-releases/releases/download/dev-latest/app-dev-release.apk",
-  "notes": "- Use shared thumbnail cache in the listing card",
-  "commit_sha": "5f23813e6d95ba6e30bd6fa08bf0443cc83c2a5e",
+  "notes": "- Fix corrupted Chiang Heng API token\n- Changelog: add v1.0.7",
+  "commit_sha": "2a2f2de77c80f2011f8fa063a8a634c3d0c8d3d6",
   "force_update": false,
-  "release_date": "2026-07-09"
+  "release_date": "2026-10-18"
 }
