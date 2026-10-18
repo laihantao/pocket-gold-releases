@@ -1,8 +1,8 @@
 {
-  "version": "1.0.8",
-  "build_number": 11,
-  "apk_url": "https://github.com/laihantao/pocket-gold-releases/releases/download/v1.0.8/app-prod-release.apk",
-  "notes": "- 修复 Chiang Heng（长慶）金价停止更新的问题：对方更换了官网与价格数据源，App 已改为对接新的价格接口，金价与「最后更新」时间恢复正常刷新。",
+  "version": "1.0.9",
+  "build_number": 12,
+  "apk_url": "https://github.com/laihantao/pocket-gold-releases/releases/download/v1.0.9/app-prod-release.apk",
+  "notes": "- 修复 Chiang Heng（长慶）金价与「最后更新」时间仍无法刷新的问题（补齐 v1.0.8）：新价格接口返回的金额为文本格式，旧代码解析时出错导致每次取价失败而退回已失效的旧网站。现已修正解析，金价与更新时间恢复正常刷新。",
   "force_update": false,
   "release_date": "2026-10-18"
 }
