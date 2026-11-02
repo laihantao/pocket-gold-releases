@@ -1,9 +1,9 @@
 {
-  "version": "1.0.0-dev.26",
-  "build_number": 26,
+  "version": "1.0.0-dev.27",
+  "build_number": 27,
   "apk_url": "https://github.com/laihantao/pocket-gold-releases/releases/download/dev-latest/app-dev-release.apk",
-  "notes": "- Changelog: note matching home and detail price cards\n- Show price refresh snackbars for 3 seconds\n- Show the newest known price on both price cards",
-  "commit_sha": "19847a3531a480370ceab1e715539c30b812c231",
+  "notes": "- Stop sending browser headers to Tomei; name who answers HTTP errors",
+  "commit_sha": "c02b2b074475efc66c435339ca15d90102cab0cd",
   "force_update": false,
   "release_date": "2026-11-02"
 }
