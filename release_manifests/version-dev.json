@@ -1,9 +1,9 @@
 {
-  "version": "1.0.0-dev.24",
-  "build_number": 24,
+  "version": "1.0.0-dev.25",
+  "build_number": 25,
   "apk_url": "https://github.com/laihantao/pocket-gold-releases/releases/download/dev-latest/app-dev-release.apk",
-  "notes": "- Changelog: note Tian Si and Tomei fix under Unreleased\n- Add Tian Si gold price source\n- Point Tomei price source at new URL without :62443\n- Accept 2xx from Chiang Heng API, not only 200\n- Parse Chiang Heng API prices as strings, not num\n- Changelog: add v1.0.8",
-  "commit_sha": "2c3215ab4e1da0501eccb80409674fd5fe9ae1cc",
+  "notes": "- Changelog: note refresh feedback and launch fetch changes\n- Show price refresh results and fetch prices on every launch\n- Backfill price history for shops with no local history",
+  "commit_sha": "da5ef196709102bdbaf41c2b7db7a3b20a7f6a77",
   "force_update": false,
   "release_date": "2026-11-02"
 }
