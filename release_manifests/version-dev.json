@@ -1,9 +1,9 @@
 {
-  "version": "1.0.0-dev.25",
-  "build_number": 25,
+  "version": "1.0.0-dev.26",
+  "build_number": 26,
   "apk_url": "https://github.com/laihantao/pocket-gold-releases/releases/download/dev-latest/app-dev-release.apk",
-  "notes": "- Changelog: note refresh feedback and launch fetch changes\n- Show price refresh results and fetch prices on every launch\n- Backfill price history for shops with no local history",
-  "commit_sha": "da5ef196709102bdbaf41c2b7db7a3b20a7f6a77",
+  "notes": "- Changelog: note matching home and detail price cards\n- Show price refresh snackbars for 3 seconds\n- Show the newest known price on both price cards",
+  "commit_sha": "19847a3531a480370ceab1e715539c30b812c231",
   "force_update": false,
   "release_date": "2026-11-02"
 }
