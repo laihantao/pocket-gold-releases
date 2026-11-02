@@ -1,9 +1,9 @@
 {
-  "version": "1.0.0-dev.27",
-  "build_number": 27,
+  "version": "1.0.0-dev.28",
+  "build_number": 28,
   "apk_url": "https://github.com/laihantao/pocket-gold-releases/releases/download/dev-latest/app-dev-release.apk",
-  "notes": "- Stop sending browser headers to Tomei; name who answers HTTP errors",
-  "commit_sha": "c02b2b074475efc66c435339ca15d90102cab0cd",
+  "notes": "- Changelog: note previous-day-only price deltas\n- Only show price deltas against the previous day",
+  "commit_sha": "d3b16712dae8c95947398740094cc1316d8d01dc",
   "force_update": false,
   "release_date": "2026-11-02"
 }
